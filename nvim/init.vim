@@ -8,6 +8,8 @@ set autoindent
 set fileformat=unix
 set relativenumber
 set colorcolumn=80
+set cursorline
+set cursorcolumn
 
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 autocmd Filetype pascal setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
